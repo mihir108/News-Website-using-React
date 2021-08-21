@@ -2,7 +2,7 @@ require('dotenv').config()
 const path = require('path');
 const express = require("express");
 const NewsAPI = require('newsapi');
-const newsapi = new NewsAPI(process.env.API_KEY);
+const newsapi = new NewsAPI("248cbca2a19d4e67aba862b23c5bcd2c");
 
 const app = express();
 
