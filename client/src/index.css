@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(240,255,240);
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+}
+
+.loading{
+    /* position: absolute;
+    left: 650px;
+    top: 80px; */
+    margin-left: 520px;
+}
+
+.category:hover{
+    color: rgb(185, 13, 13);
+}
+
+.nav-items:hover{
+    color: rgb(185, 13, 13);
+}
+
+.fixedItem{
+    position: fixed;
+}
