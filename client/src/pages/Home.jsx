@@ -42,7 +42,7 @@ export default function Home({ method="post" }){
 
     const objData = {...useParams(),lang,sort};
     // console.log(objData);
-    const url = `http://localhost:5000/${checkHome === true ? "home": "q=" + queryString}`;
+    const url = `/${checkHome === true ? "home": "q=" + queryString}`;
     // console.log(url);
     const { newsItem, loading, hasMore, noItems } = useFetch(url,method,objData);
     const loadingMore = loading && hasMore;
